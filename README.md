@@ -7,7 +7,7 @@ Jak spustíš script:
 1. Zadejte název územního celku --mesto : Kladno "první velké písmeno"
 2. Zadejte název souboru .csv --soubor : vysledky_voleb2017_kladno.csv
 
-´´´python main.py --mesto "Kladno" --soubor "vysledky_voleb2017_kladno.csv"´´´
+```python main.py --mesto "Kladno" --soubor "vysledky_voleb2017_kladno.csv"```
 
 
 Takto vypadá výsledný csv soubor:
