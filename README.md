@@ -4,8 +4,8 @@ Elections Scraper
 Tento projekt Elections Scraper má za úkol vyhledat výsledky voleb z roku 2017 z odkazu 'https://volby.cz/pls/ps2017nss/ps3?xjazyk=CZ' dle územního celku, který je potřeba zadat jako první argument v příkazovém řádku. Dále je potřeba zadat druhý argument název souboru .csv do kterého budou výsledky zapsány.
 
 Jak spustíš script:
-1. Zadejte název územního celku '--mesto : Kladno "první velké písmeno"'
-2. Zadejte název souboru .csv '--soubor : "vysledky_voleb2017_kladno.csv"'
+1. Zadejte název územního celku --mesto : Kladno "první velké písmeno"
+2. Zadejte název souboru .csv --soubor : vysledky_voleb2017_kladno.csv
 
 ```python main.py --mesto "Kladno" --soubor "vysledky_voleb2017_kladno.csv"```
 
