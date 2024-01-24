@@ -8,8 +8,8 @@ discord: keimi_
 
 import os
 import csv
-import requests
 import bs4
+import requests
 import argparse
 
 # Inicializace seznamů pro města a odkazy
@@ -124,9 +124,9 @@ def zapis_csv(obec_dict, fname):
         vysledek = tabulka_csv_1(tabulka)
         vystup_csv.extend(
             [
-                vysledek[2]["Voliči v seznamu"],
-                vysledek[2]["Vydané obálky"],
-                vysledek[2]["Platné hlasy"],
+                vysledek[2]["Voličiv seznamu"],
+                vysledek[2]["Vydanéobálky"],
+                vysledek[2]["Platnéhlasy"],
             ]
         )
         vysledek.clear()
